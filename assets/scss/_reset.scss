@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 10px !important;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 10px !important;
+}
+
+
+.small, small {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+a {
+  color: var(--white);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.text-primary {
+  color: var(--secondary) !important;
+}
+
+
+::-webkit-scrollbar {
+  width: .25rem;
+  border-radius: 10rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.21);
+  outline: 0;
+  border-radius: 10rem;
+}
