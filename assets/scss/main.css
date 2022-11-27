@@ -6,7 +6,7 @@
   --secondary-light: #fcc51f;
   --secondary-dark: #e4ad07;
   --white: #fafafc;
-  --white-dim: #8c8c8e;
+  --white-dim: #c0c0c0;
   --white-dimer: #8c8c8e99;
 }
 
@@ -24,6 +24,19 @@ body {
   color: var(--font-color);
 }
 
+.title-lg {
+  font-size: 18px;
+}
+
+.title-md {
+  font-size: 16px;
+}
+
+.title-sm {
+  font-size: 14px;
+  color: #d9d9d9;
+}
+
 .heading {
   font-size: 16px;
   font-weight: 400;
@@ -33,6 +46,12 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: var(--font-color);
+}
+
+li {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--white-dim);
 }
 
 .wrapper {
@@ -101,7 +120,7 @@ body {
 .info-detail-box .info-header {
   padding: 18px;
   background: linear-gradient(159deg, #252532 0%, #23232d 100%);
-  box-shadow: 0 1px 4px 0 #0f0f141a;
+  box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1019607843);
   position: absolute;
   left: 0;
   right: 0;
@@ -225,7 +244,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
-  box-shadow: 0 1px 4px 0 #0f0f141a;
+  box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1019607843);
   width: 100%;
   z-index: 999;
 }
@@ -313,7 +332,7 @@ body {
   border-radius: 10rem;
 }
 .main-content-box .card-rating .fa {
-  color: #ffc107cc;
+  color: rgba(255, 193, 7, 0.8);
   padding: 0 4px;
   font-size: 9px;
 }
@@ -399,7 +418,7 @@ body {
 }
 
 .skill-tag {
-  background-image: linear-gradient(45deg, #101010c2, #0000000d);
+  background-image: linear-gradient(45deg, rgba(16, 16, 16, 0.7607843137), rgba(0, 0, 0, 0.0509803922));
   padding: 10px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -435,24 +454,19 @@ body {
   .wrapper {
     padding: 0 !important;
   }
-
   .main-content-box {
     max-height: calc(100vh - 57px);
   }
-
   .main-content-box .footer {
     margin: 20px 0;
   }
-
   .info-scrollable {
     max-height: 500px;
   }
-
   .main-content-box .banner-container {
     min-height: 20rem;
     padding: 16px;
   }
-
   .info-detail-box {
     position: fixed;
     left: -100%;
@@ -465,7 +479,6 @@ body {
   .info-detail-box.active {
     left: 0 !important;
   }
-
   .mobile-nav {
     display: flex;
     align-items: center;
@@ -483,27 +496,23 @@ body {
     font-size: 16px;
     cursor: pointer;
   }
-
   .overlay.active {
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #00000029;
+    background-color: rgba(0, 0, 0, 0.1607843137);
     z-index: 2;
   }
-
   .main-content-box .card .title {
     flex-direction: column;
     justify-content: flex-start !important;
     align-items: flex-start;
   }
-
   .main-content-box .card .card-title {
     margin-bottom: 8px !important;
   }
-
   .skill-tag {
     text-align: center !important;
   }

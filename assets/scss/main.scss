@@ -6,7 +6,7 @@
   --secondary-light: #fcc51f;
   --secondary-dark: #e4ad07;
   --white: #fafafc;
-  --white-dim: #8c8c8e;
+  --white-dim: #c0c0c0;
   --white-dimer: #8c8c8e99;
 }
 
@@ -20,7 +20,7 @@ body {
   overflow: hidden;
 }
 
-@import "typography";
+@import "./typo";
 
 .wrapper {
   padding: 0 15px;
